@@ -162,10 +162,10 @@
         symbols_2_layer {
             label = "Sym.2";
             bindings = <
-&kp LCTRL  &kp UNDERSCORE  &none                 &none     &kp HASH       &none  &none  &none  &none  &none
-&kp GRAVE  &kp TILDE       &kp NON_US_BACKSLASH  &kp PIPE  &kp AMPERSAND  &none  &none  &none  &none  &none
-&none      &none           &none                 &none     &none          &none  &none  &none  &none  &none
-                                                 &none     &none          &none  &none
+&kp EXCLAMATION  &kp AT     &kp HASH              &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp GRAVE        &kp TILDE  &kp NON_US_BACKSLASH  &kp PIPE    &kp AMPERSAND  &none      &kp UNDERSCORE  &none         &none                 &none
+&none            &none      &none                 &none       &none          &none      &none           &none         &none                 &none
+                                                  &none       &none          &none      &none
             >;
         };
 
